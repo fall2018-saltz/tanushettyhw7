@@ -4,7 +4,7 @@ library("ggmap")
 
 us <- map_data("state")
 
-map2 <- ggplot(mergeDF, aes(map_id= stateName))
+ggmap2 <- ggplot(mergeDF, aes(map_id= stateName))
 
 ggmap2 <- ggmap2 +geom_map(map =us, aes(fill = Murder))
 
