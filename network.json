@@ -33,6 +33,16 @@
             ],
             "source": "clean_data.csv",
             "target": "mergingDataframe.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergingDataframe.R",
+            "target": "mergeDF.csv"
         }
     ],
     "nodes": [
@@ -57,6 +67,6 @@
             "name": "mergeDF.csv"
         }
     ],
-    "updated_at": "2018-10-18 04:13:22",
+    "updated_at": "2018-10-18 04:13:42",
     "url": "https://github.com/fall2018-saltz/tanushettyhw7"
 }
