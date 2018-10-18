@@ -9,3 +9,5 @@ y1 <- latlon$lat-10
 x1 <- latlon$lat-10
 x2 <- latlon$lat+10
 y2 <- latlon$lat+10
+
+ggmap4 <- ggplot(mergeDF,aes(map_id = stateName))
