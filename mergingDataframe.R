@@ -6,10 +6,10 @@ rownames(clean_data) <- as.vector(clean_data[,"stateName"])
 mergeDF <- merge(clean_data,arrests, by="row.names")
 mergeDF
 
-stateName <- stateNames
-stateArea <- stateArea
+stateName <- state.name
+stateArea <- state.area
 
-stateCenter <- stateCenter
+stateCenter <- state.center
 
 otherDF <- data.frame(stateName,stateArea, stateCenter)
 
