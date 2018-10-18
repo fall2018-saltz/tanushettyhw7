@@ -1,2 +1,2 @@
 
-library(ggplot)
+library("ggplot2")
