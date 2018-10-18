@@ -133,6 +133,16 @@
             ],
             "source": "mergeDF.csv",
             "target": "ggmap5.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ggmap5",
+                    "type": "csv"
+                }
+            ],
+            "source": "ggmap5.R",
+            "target": "ggmap5.csv"
         }
     ],
     "nodes": [
@@ -202,6 +212,6 @@
             "name": "ggmap5.csv"
         }
     ],
-    "updated_at": "2018-10-18 15:23:50",
+    "updated_at": "2018-10-18 15:24:02",
     "url": "https://github.com/fall2018-saltz/tanushettyhw7"
 }
