@@ -7,8 +7,8 @@ us <- map_data("state")
 latlon <- geocode("new york city,ny", source="dsk")
 y1 <- latlon$lat-10
 x1 <- latlon$lon-10
-x2 <- latlon$lat+10
-y2 <- latlon$lon+10
+x2 <- latlon$lon+10
+y2 <- latlon$lat+10
 
 ggmap4 <- ggplot(mergeDF,aes(map_id = stateName))+ geom_map(map=us,(fill=Murder))
 
