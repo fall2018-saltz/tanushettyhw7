@@ -43,6 +43,16 @@
             ],
             "source": "mergingDataframe.R",
             "target": "mergeDF.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergeDF.csv",
+            "target": "Map1.R"
         }
     ],
     "nodes": [
@@ -71,6 +81,6 @@
             "name": "Map1.R"
         }
     ],
-    "updated_at": "2018-10-18 04:18:30",
+    "updated_at": "2018-10-18 04:19:12",
     "url": "https://github.com/fall2018-saltz/tanushettyhw7"
 }
