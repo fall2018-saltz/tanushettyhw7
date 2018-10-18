@@ -1,5 +1,6 @@
 
 clean_data <- function(states){
+#Cleaning the data. Removing the first and the last row
     states <- states[,-c(1:4)]
     states <- states[c(-1,-53),]
     
