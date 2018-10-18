@@ -2,7 +2,7 @@
 library("ggplot2")
 library("ggmap")
 
-us <- map_data("stage")
+us <- map_data("state")
 
 latlon <- geocode("new york city,ny", source="dsk")
 y1 <- latlon$lat-10
