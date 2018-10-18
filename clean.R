@@ -1,2 +1,2 @@
 
-clean_data <- raw_data
+clean_data <- function(dfStates1){
