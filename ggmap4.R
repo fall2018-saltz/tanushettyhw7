@@ -13,3 +13,5 @@ y2 <- latlon$lat+10
 ggmap4 <- ggplot(mergeDF,aes(map_id = stateName))+ geom_map(map=us,(fill=Murder))
 
 ggmap4 <- ggmap4 + scale_fill_gradient(low="white",high="red")+xlim(c(x1,x2))+ylim(c(y1,y2))
+
+ggmap4 <- ggmap4 + expand_limits(x=us$long,y=us$lat)+coord_map()
