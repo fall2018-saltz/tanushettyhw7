@@ -19,6 +19,7 @@ stateCenter <- state.center
 #merging the datasets to form a dataframe
 mergedData <- data.frame(stateName,stateArea, stateCenter)
 
+#Creating a dataset to merge columns of arrest and states 
 mergeDF <- merge(mergeDF, mergedData,by="stateName")
 
 mergeDF$stateName <- tolower(mergeDF$stateName)
