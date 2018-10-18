@@ -12,3 +12,5 @@ stateArea <- stateArea
 stateCenter <- stateCenter
 
 otherDF <- data.frame(stateName,stateArea, stateCenter)
+
+mergeDataframe <- merge(mergeDataframe,otherDF,by="stateName")
