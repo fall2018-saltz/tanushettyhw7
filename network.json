@@ -52,7 +52,7 @@
                 }
             ],
             "source": "mergeDF.csv",
-            "target": "Map1.R"
+            "target": "ggMap1.R"
         }
     ],
     "nodes": [
@@ -77,10 +77,12 @@
             "name": "mergeDF.csv"
         },
         {
+            "assigned_to": "tshetty",
             "desc": "",
-            "name": "Map1.R"
+            "name": "ggMap1.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 04:19:12",
+    "updated_at": "2018-10-18 04:26:00",
     "url": "https://github.com/fall2018-saltz/tanushettyhw7"
 }
