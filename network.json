@@ -48,10 +48,15 @@
             "name": "clean_data.csv"
         },
         {
+            "assigned_to": "tshetty",
             "desc": "",
-            "name": "mergingDataframe.R"
+            "name": "mergingDataframe.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "mergeDF.csv"
         }
     ],
-    "updated_at": "2018-10-18 03:46:06",
+    "updated_at": "2018-10-18 04:13:22",
     "url": "https://github.com/fall2018-saltz/tanushettyhw7"
 }
