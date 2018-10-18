@@ -16,6 +16,7 @@ ggmap3 <- ggmap3 + geom_map(map = us, aes(fill=Murder))+ scale_fill_gradient(low
 
 ggmap3 <- ggmap3 + expand_limits(x=us$long, y=us$lat) + coord_map()
 
+#geom_point plots points at the centre of every state
 ggmap3 <- ggmap3 + geom_point(data=mergeDF, mapping=aes(x=x,y=y,size=population))
 
 ggmap3
