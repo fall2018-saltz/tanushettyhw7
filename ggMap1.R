@@ -1,4 +1,5 @@
 
+#Importing library fo ggplot and ggmap
 library("ggplot2")
 library("ggmap")
 
