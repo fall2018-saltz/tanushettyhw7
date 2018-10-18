@@ -2,6 +2,7 @@
 #Copying USArrests into a local variable
 arrests <- USArrests
 
+#Using rownames to create a column
 rownames(clean_data) <- as.vector(clean_data[,"stateName"])
 
 mergeDF <- merge(clean_data,arrests, by="row.names")
