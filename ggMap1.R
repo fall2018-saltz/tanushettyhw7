@@ -3,9 +3,10 @@
 library("ggplot2")
 library("ggmap")
 
+#converting data from the maps package into a dataframe 
 us<- map_data("state")
 
-
+#Creating a ggplot object and passing mergeDF as the input with map ID as the statename
 ggmap1 <- ggplot(mergeDF, aes(map_id = stateName))  + geom_map(map= us, aes(fill=stateArea))
 
 
