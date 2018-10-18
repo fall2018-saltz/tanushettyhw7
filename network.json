@@ -73,6 +73,16 @@
             ],
             "source": "mergeDF.csv",
             "target": "ggmap3.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergeDF.csv",
+            "target": "ggmap4.R"
         }
     ],
     "nodes": [
@@ -115,10 +125,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "tshetty",
             "desc": "",
-            "name": "ggmap4.R"
+            "name": "ggmap4.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 05:13:16",
+    "updated_at": "2018-10-18 05:26:29",
     "url": "https://github.com/fall2018-saltz/tanushettyhw7"
 }
