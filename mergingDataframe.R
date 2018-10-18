@@ -11,8 +11,8 @@ stateArea <- state.area
 
 stateCenter <- state.center
 
-otherDF <- data.frame(stateName,stateArea, stateCenter)
+mergedData <- data.frame(stateName,stateArea, stateCenter)
 
-mergeDF <- merge(mergeDF,otherDF,by="stateName")
+mergeDF <- merge(mergeDF, mergedData,by="stateName")
 
 mergeDF$stateName <- tolower(mergeDF$stateName)
