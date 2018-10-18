@@ -9,9 +9,11 @@ rownames(clean_data) <- as.vector(clean_data[,"stateName"])
 mergeDF <- merge(clean_data,arrests, by="row.names")
 mergeDF
 
+
 stateName <- state.name
 stateArea <- state.area
 
+#getting coordinates of the centers of all states
 stateCenter <- state.center
 
 mergedData <- data.frame(stateName,stateArea, stateCenter)
