@@ -10,3 +10,5 @@ stateName <- stateNames
 stateArea <- stateArea
 
 stateCenter <- stateCenter
+
+otherDF <- data.frame(stateName,stateArea, stateCenter)
