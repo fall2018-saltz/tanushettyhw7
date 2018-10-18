@@ -93,6 +93,16 @@
             ],
             "source": "ggMap1.R",
             "target": "ggmap1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ggmap2",
+                    "type": "png"
+                }
+            ],
+            "source": "ggMap2.R",
+            "target": "ggmap2.png"
         }
     ],
     "nodes": [
@@ -147,6 +157,6 @@
             "name": "ggmap2.png"
         }
     ],
-    "updated_at": "2018-10-18 05:28:22",
+    "updated_at": "2018-10-18 05:28:38",
     "url": "https://github.com/fall2018-saltz/tanushettyhw7"
 }
