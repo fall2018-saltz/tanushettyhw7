@@ -4,6 +4,7 @@ library("ggmap")
 
 us <- map_data("state")
 
+#getting the latitude and longitude of an address
 latlon <- geocode("new york city,ny", source="dsk")
 y1 <- latlon$lat-10
 x1 <- latlon$lon-10
