@@ -16,6 +16,7 @@ stateArea <- state.area
 #getting coordinates of the centers of all states
 stateCenter <- state.center
 
+#merging the datasets to form a dataframe
 mergedData <- data.frame(stateName,stateArea, stateCenter)
 
 mergeDF <- merge(mergeDF, mergedData,by="stateName")
