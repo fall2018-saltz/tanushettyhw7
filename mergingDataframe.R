@@ -8,3 +8,5 @@ mergeDataframe
 
 stateName <- stateNames
 stateArea <- stateArea
+
+stateCenter <- stateCenter
