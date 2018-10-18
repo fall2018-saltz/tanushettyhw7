@@ -6,3 +6,5 @@ us <- map_data("state")
 
 map2 <- ggplot(mergeDF, aes(map_id= stateName))
 
+map2 <- map2 +geom_map(map =us, aes(fill = Murder))
+
