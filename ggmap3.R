@@ -3,6 +3,7 @@
 library("ggplot2")
 library("ggmap")
 
+#Converting data from the maps package into a data frame suitable for plotting with ggplot2
 us <- map_data("state")
 
 ggmap3 <- ggplot(mergeDF, aes(map_id = stateName)) 
