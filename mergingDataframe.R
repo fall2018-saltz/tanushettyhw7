@@ -1,4 +1,5 @@
 
+#Copying USArrests into a local variable
 arrests <- USArrests
 
 rownames(clean_data) <- as.vector(clean_data[,"stateName"])
