@@ -12,7 +12,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "data.csv"
+            "target": "clean_data.csv"
         },
         {
             "ports": [
@@ -30,12 +30,14 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "tshetty",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
-            "name": "data.csv"
+            "name": "clean_data.csv"
         }
     ],
-    "updated_at": "2018-10-18 03:27:47",
+    "updated_at": "2018-10-18 03:37:28",
     "url": "https://github.com/fall2018-saltz/tanushettyhw7"
 }
