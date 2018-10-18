@@ -17,3 +17,5 @@ ggmap4 <- ggmap4 + scale_fill_gradient(low="white",high="red")+xlim(c(x1,x2))+yl
 ggmap4 <- ggmap4 + expand_limits(x=us$long,y=us$lat)+coord_map()
 
 ggmap4 <- ggmap4 + geom_point(data=mergeDF,mapping=aes(x=x,y=y,size=population))
+
+ggmap4
