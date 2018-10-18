@@ -7,3 +7,4 @@ mergeDataframe <- merge(clean_data,arrests, by="row.names")
 mergeDataframe
 
 stateName <- state.names
+stateArea <- state.stateArea
