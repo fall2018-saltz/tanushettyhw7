@@ -7,22 +7,22 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "clean_data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "raw_data",
                     "type": "csv"
                 }
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "clean_data.csv"
         }
     ],
     "nodes": [
@@ -38,6 +38,6 @@
             "name": "clean_data.csv"
         }
     ],
-    "updated_at": "2018-10-18 03:37:28",
+    "updated_at": "2018-10-18 03:37:35",
     "url": "https://github.com/fall2018-saltz/tanushettyhw7"
 }
