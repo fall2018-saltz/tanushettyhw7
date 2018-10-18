@@ -13,3 +13,4 @@ map1 <- map1 + geom_map(map=us, aes(fill=stateName)
 map1 <- map1 + expand_limits(x = mergeDF$x, y=mergeDF$y)
 
 map1 <- map1 + coord_map() + ggtitle("Map of US based on state area")
+map1
