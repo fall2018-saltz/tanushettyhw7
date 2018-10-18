@@ -22,4 +22,5 @@ mergedData <- data.frame(stateName,stateArea, stateCenter)
 #Creating a dataset to merge columns of arrest and states 
 mergeDF <- merge(mergeDF, mergedData,by="stateName")
 
+#tolower converts the state names to lower case because R cannot process capital letters
 mergeDF$stateName <- tolower(mergeDF$stateName)
